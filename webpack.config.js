@@ -8,7 +8,7 @@ module.exports = (env = {}) => {
         entry: "./src/App.tsx",
         output: {
             path: path.resolve(__dirname, "public"),
-            publicPath: "/public",
+            publicPath: "/",
             filename: "build/bundle.js"
         },
         module: {
@@ -32,7 +32,7 @@ module.exports = (env = {}) => {
             contentBase: path.join(__dirname, "public"),
             historyApiFallback: true,
             compress: true,
-            port: 443
+            port: 8443
         },
         plugins: []
     }

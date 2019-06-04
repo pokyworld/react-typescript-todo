@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "webpack --mode=\"production\"",
-    "serve": "webpack-dev-server",
+    "serve": "webpack-dev-server --hot",
     "test": "jest --config=jest.config.json"
   },
   "author": "",
