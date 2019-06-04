@@ -1,8 +1,6 @@
 import * as React from "react";
 import * as ReactDom from "react-dom";
 
-const rootElem = document.querySelector("#root");
-
 export class App extends React.Component {
     render() {
         return (
@@ -14,5 +12,5 @@ export class App extends React.Component {
 };
 export default App;
 
+const rootElem = document.querySelector("#root");
 ReactDom.render(<App />, rootElem);
-// ReactDom.render(<h1>Hello World</h1>, rootElem);
