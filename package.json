@@ -1,0 +1,27 @@
+{
+  "name": "react-typescript-todo",
+  "version": "1.0.0",
+  "description": "React ToDo App using Typescript",
+  "main": "./src/App.tsx",
+  "repository": "https://github.com/pokyworld/react-typescript-todo.git",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.5.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "scripts": {
+    "build": "webpack --mode=\"production\"",
+    "serve": "webpack-dev-server",
+    "test": "jest --config=jest.config.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
